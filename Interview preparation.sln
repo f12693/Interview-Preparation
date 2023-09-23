@@ -22,9 +22,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Merge Two Strings", "Merge 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "The Number of Longest Sequences", "The Number of Longest Sequences\The Number of Longest Sequences.csproj", "{42234E33-BCC4-40F1-B9D8-4F9E76E1FE24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeeCode - 226. Invert Binary Tree", "LeeCode - 226. Invert Binary Tree\LeeCode - 226. Invert Binary Tree.csproj", "{10C5D10A-254F-40FC-8876-8F53E38312B0}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "雙指針解法(from Cindy)", "雙指針解法(from Cindy)\雙指針解法(from Cindy).csproj", "{B0605AF8-0FAD-46F3-9CE4-5B4B28B2A2F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode 226. Invert Binary Tree", "LeetCode 226. Invert Binary Tree\LeetCode 226. Invert Binary Tree.csproj", "{8BDD4717-B1F9-4037-BF69-A2173A0DF714}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -60,14 +60,14 @@ Global
 		{42234E33-BCC4-40F1-B9D8-4F9E76E1FE24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42234E33-BCC4-40F1-B9D8-4F9E76E1FE24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42234E33-BCC4-40F1-B9D8-4F9E76E1FE24}.Release|Any CPU.Build.0 = Release|Any CPU
-		{10C5D10A-254F-40FC-8876-8F53E38312B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{10C5D10A-254F-40FC-8876-8F53E38312B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{10C5D10A-254F-40FC-8876-8F53E38312B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{10C5D10A-254F-40FC-8876-8F53E38312B0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B0605AF8-0FAD-46F3-9CE4-5B4B28B2A2F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B0605AF8-0FAD-46F3-9CE4-5B4B28B2A2F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0605AF8-0FAD-46F3-9CE4-5B4B28B2A2F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0605AF8-0FAD-46F3-9CE4-5B4B28B2A2F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BDD4717-B1F9-4037-BF69-A2173A0DF714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BDD4717-B1F9-4037-BF69-A2173A0DF714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BDD4717-B1F9-4037-BF69-A2173A0DF714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BDD4717-B1F9-4037-BF69-A2173A0DF714}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

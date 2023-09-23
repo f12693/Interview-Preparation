@@ -1,4 +1,4 @@
-﻿namespace LeeCode___226._Invert_Binary_Tree
+﻿namespace LeetCode_226._Invert_Binary_Tree
 {
     internal class Program
     {
@@ -22,9 +22,10 @@
             // 打印反轉後的二叉樹，可以自行實現遍歷函數
             PrintTreeBFS(invertedRoot);
             Console.WriteLine();
+            PrintTree(invertedRoot);
+            Console.WriteLine();
             PrintTreeDFS(invertedRoot);
             Console.WriteLine();
-            PrintTree(invertedRoot);
 
             Console.WriteLine("Press any key to exit...");
             Console.ReadKey();
@@ -48,16 +49,8 @@
                     queue.Enqueue(current.right);
             }
         }
-        static void PrintTreeDFS(TreeNode root)
-        {
-            if (root == null)
-                return;
-            Console.Write(root.val + " ");
-            PrintTreeDFS(root.left);
-            PrintTreeDFS(root.right);
-        }
 
-        static void PrintTree(TreeNode root)
+        static void PrintTreeDFS(TreeNode root)
         {
             if (root == null)
                 return;
@@ -76,6 +69,16 @@
                 if (current.left != null)
                     stack.Push(current.left);
             }
+        }
+
+        // 效果跟PrintTreeDFS一樣
+        static void PrintTree(TreeNode root)
+        {
+            if (root == null)
+                return;
+            Console.Write(root.val + " ");
+            PrintTreeDFS(root.left);
+            PrintTreeDFS(root.right);
         }
     }
 
