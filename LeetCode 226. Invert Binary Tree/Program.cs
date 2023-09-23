@@ -74,7 +74,7 @@
             }
         }
 
-        // 效果跟PrintTreeDFS一樣
+        // 效果跟PrintTreeDFS一樣，只是上述是用迭代(iteration)，這邊是使用遞迴(recursive function)
         static void PrintTree(TreeNode root)
         {
             if (root == null)

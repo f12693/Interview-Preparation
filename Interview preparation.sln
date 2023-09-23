@@ -22,11 +22,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Merge Two Strings", "Merge 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "The Number of Longest Sequences", "The Number of Longest Sequences\The Number of Longest Sequences.csproj", "{42234E33-BCC4-40F1-B9D8-4F9E76E1FE24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "雙指針解法(from Cindy)", "雙指針解法(from Cindy)\雙指針解法(from Cindy).csproj", "{B0605AF8-0FAD-46F3-9CE4-5B4B28B2A2F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "雙指針解法(from Cindy)", "雙指針解法(from Cindy)\雙指針解法(from Cindy).csproj", "{B0605AF8-0FAD-46F3-9CE4-5B4B28B2A2F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode 226. Invert Binary Tree", "LeetCode 226. Invert Binary Tree\LeetCode 226. Invert Binary Tree.csproj", "{8BDD4717-B1F9-4037-BF69-A2173A0DF714}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode 226. Invert Binary Tree", "LeetCode 226. Invert Binary Tree\LeetCode 226. Invert Binary Tree.csproj", "{8BDD4717-B1F9-4037-BF69-A2173A0DF714}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode 1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree", "LeetCode 1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree\LeetCode 1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree.csproj", "{1E50B7FD-9FE4-4852-A774-AC8A61F8C28F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode 1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree", "LeetCode 1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree\LeetCode 1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree.csproj", "{1E50B7FD-9FE4-4852-A774-AC8A61F8C28F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode 94. Binary Tree Inorder Traversal", "LeetCode 94. Binary Tree Inorder Traversal\LeetCode 94. Binary Tree Inorder Traversal.csproj", "{37D29BC7-6006-41EB-8C98-00DBED824E77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -74,6 +76,10 @@ Global
 		{1E50B7FD-9FE4-4852-A774-AC8A61F8C28F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E50B7FD-9FE4-4852-A774-AC8A61F8C28F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E50B7FD-9FE4-4852-A774-AC8A61F8C28F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37D29BC7-6006-41EB-8C98-00DBED824E77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37D29BC7-6006-41EB-8C98-00DBED824E77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37D29BC7-6006-41EB-8C98-00DBED824E77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37D29BC7-6006-41EB-8C98-00DBED824E77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
