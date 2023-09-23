@@ -30,6 +30,8 @@
             Console.WriteLine("Press any key to exit...");
             Console.ReadKey();
         }
+
+        // Queue，先進先出 (First-In-First-Out, FIFO) 的資料結構，類似於排隊。
         static void PrintTreeBFS(TreeNode root)
         {
             if (root == null)
@@ -50,6 +52,7 @@
             }
         }
 
+        // Stack，後進先出 (Last-In-First-Out, LIFO) 的資料結構，類似於一疊盤子。
         static void PrintTreeDFS(TreeNode root)
         {
             if (root == null)
@@ -77,8 +80,8 @@
             if (root == null)
                 return;
             Console.Write(root.val + " ");
-            PrintTreeDFS(root.left);
-            PrintTreeDFS(root.right);
+            PrintTree(root.left);
+            PrintTree(root.right);
         }
     }
 
@@ -93,6 +96,12 @@
             this.left = left;
             this.right = right;
         }
+
+        // 設中斷點時較方便觀察
+        public override string ToString()
+        {
+            return "Node=" + val;
+        }
     }
 
     public class Solution
@@ -101,11 +110,15 @@
         {
             if (root != null)
             {
-                TreeNode left = InvertTree(root.left);
-                TreeNode right = InvertTree(root.right);
+                TreeNode left = root.left;
+                TreeNode right = root.right;
 
-                root.left = right;
-                root.right = left;
+                root.left = InvertTree(right);
+                root.right = InvertTree(left);
+
+                // 注意不能化簡成以下，因第二行用的是已經改過的root.left，而不是最一開始的root.left
+                // root.left = InvertTree(root.right);
+                // root.right = InvertTree(root.left);
             }
 
             return root;

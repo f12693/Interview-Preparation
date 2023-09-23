@@ -10,7 +10,8 @@
 [V] - Shortest Path with Dijkstra’s algorithm（最短路徑 使用Dijkstra演算法）
 
 2023/09/23
-[V] - LeetCode - 226. Invert Binary Tree
+[V] - LeetCode 226. Invert Binary Tree
 [V] - Merge Two Strings
 [V] - The Number of Longest Sequences
 [V] - 雙指針解法(from Cindy)
+[V] - Modify LeetCode 226.
