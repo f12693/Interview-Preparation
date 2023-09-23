@@ -15,3 +15,4 @@
 [V] - The Number of Longest Sequences
 [V] - Âù«ü°w¸Ñªk(from Cindy)
 [V] - Modify LeetCode 226.
+[V] - LeetCode 1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree
