@@ -18,6 +18,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReadMe", "ReadMe", "{295EBC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shortest Path (with Dijkstra’s algorithm)", "Shortest Path (with Dijkstra’s algorithm)\Shortest Path (with Dijkstra’s algorithm).csproj", "{61DF740C-962F-4A0C-AFF3-C396B47A75C8}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Merge Two Strings", "Merge Two Strings\Merge Two Strings.csproj", "{BB427128-0BEA-4817-A0CE-E3A999BB1F47}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "The Number of Longest Sequences", "The Number of Longest Sequences\The Number of Longest Sequences.csproj", "{42234E33-BCC4-40F1-B9D8-4F9E76E1FE24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeeCode - 226. Invert Binary Tree", "LeeCode - 226. Invert Binary Tree\LeeCode - 226. Invert Binary Tree.csproj", "{10C5D10A-254F-40FC-8876-8F53E38312B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "雙指針解法(from Cindy)", "雙指針解法(from Cindy)\雙指針解法(from Cindy).csproj", "{B0605AF8-0FAD-46F3-9CE4-5B4B28B2A2F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +52,22 @@ Global
 		{61DF740C-962F-4A0C-AFF3-C396B47A75C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61DF740C-962F-4A0C-AFF3-C396B47A75C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61DF740C-962F-4A0C-AFF3-C396B47A75C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB427128-0BEA-4817-A0CE-E3A999BB1F47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB427128-0BEA-4817-A0CE-E3A999BB1F47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB427128-0BEA-4817-A0CE-E3A999BB1F47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB427128-0BEA-4817-A0CE-E3A999BB1F47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42234E33-BCC4-40F1-B9D8-4F9E76E1FE24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42234E33-BCC4-40F1-B9D8-4F9E76E1FE24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42234E33-BCC4-40F1-B9D8-4F9E76E1FE24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42234E33-BCC4-40F1-B9D8-4F9E76E1FE24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10C5D10A-254F-40FC-8876-8F53E38312B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10C5D10A-254F-40FC-8876-8F53E38312B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10C5D10A-254F-40FC-8876-8F53E38312B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10C5D10A-254F-40FC-8876-8F53E38312B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0605AF8-0FAD-46F3-9CE4-5B4B28B2A2F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0605AF8-0FAD-46F3-9CE4-5B4B28B2A2F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0605AF8-0FAD-46F3-9CE4-5B4B28B2A2F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0605AF8-0FAD-46F3-9CE4-5B4B28B2A2F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
