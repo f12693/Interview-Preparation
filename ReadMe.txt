@@ -20,3 +20,4 @@
 2023/09/24
 [V] - Modify LeetCode 226.
 [V] - LeetCode 94. Binary Tree Inorder Traversal
+[V] - LeetCode 104. Maximum Depth of Binary Tree
