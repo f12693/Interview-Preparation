@@ -19,12 +19,12 @@
 
     public class Solution
     {
-        static public int MaxDepth(TreeNode root)
+        public static int MaxDepth(TreeNode root)
         {
             if (root == null) return 0;
             int leftDepth = MaxDepth(root.left);
             int rightDepth = MaxDepth(root.right);
-            return leftDepth > rightDepth ? leftDepth + 1 : rightDepth + 1;
+            return Math.Max(leftDepth, rightDepth) + 1;
         }
     }
     public class TreeNode

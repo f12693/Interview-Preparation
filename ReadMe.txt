@@ -21,3 +21,5 @@
 [V] - Modify LeetCode 226.
 [V] - LeetCode 94. Binary Tree Inorder Traversal
 [V] - LeetCode 104. Maximum Depth of Binary Tree
+[V] - Modify LeetCode 104.
+[V] - LeetCode 543. Diameter of Binary Tree
