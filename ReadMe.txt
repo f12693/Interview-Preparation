@@ -23,3 +23,6 @@
 [V] - LeetCode 104. Maximum Depth of Binary Tree
 [V] - Modify LeetCode 104.
 [V] - LeetCode 543. Diameter of Binary Tree
+
+2023/09/25
+[V] - LeetCode 704. Binary Search

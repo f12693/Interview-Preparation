@@ -34,6 +34,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode 104. Maximum Depth
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode 543. Diameter of Binary Tree", "LeetCode 543. Diameter of Binary Tree\LeetCode 543. Diameter of Binary Tree.csproj", "{28D14D84-4D42-469B-A0D0-2719039462D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode 704. Binary Search", "LeetCode 704. Binary Search\LeetCode 704. Binary Search.csproj", "{251313C5-24DA-4912-9F23-EF59C963FE9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -92,6 +94,10 @@ Global
 		{28D14D84-4D42-469B-A0D0-2719039462D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28D14D84-4D42-469B-A0D0-2719039462D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28D14D84-4D42-469B-A0D0-2719039462D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{251313C5-24DA-4912-9F23-EF59C963FE9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{251313C5-24DA-4912-9F23-EF59C963FE9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{251313C5-24DA-4912-9F23-EF59C963FE9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{251313C5-24DA-4912-9F23-EF59C963FE9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
